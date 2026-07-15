@@ -1,0 +1,23 @@
+# Data files
+*.h5ad
+*.rds
+*.qs
+*.Rdata
+*.RData
+*.csv
+*.xlsx
+
+# Results (keep the directory, ignore files)
+results/*
+!results/.gitkeep
+
+# IDE
+.Rproj.user/
+.posit/
+.DS_Store
+Thumbs.db
+
+# R history
+.Rhistory
+.RData
+.Renal
