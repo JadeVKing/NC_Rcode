@@ -1,0 +1,21 @@
+# Data files (too large for git)
+*.h5ad
+*.rds
+*.qs
+*.Rdata
+*.RData
+
+# IDE
+.posit/
+.Rproj.user/
+.DS_Store
+Thumbs.db
+
+# R history
+.Rhistory
+.RData
+.Renal
+
+# Results output (keep directory, ignore files)
+pipeline/results/*
+!pipeline/results/.gitkeep
